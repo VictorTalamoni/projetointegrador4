@@ -1,6 +1,6 @@
 @extends('layouts.main')
-@section('title', 'Cadastro de Pessoas')
-@section('pagina', 'Cadastro de pessoas')
+@section('title', 'Login')
+@section('pagina', 'Login')
 @section('nav1')
 @if (Route::has('login'))
     @auth
@@ -51,7 +51,7 @@ background-color: rgb(169, 250, 191);
         <div class="block mt-4">
             <label for="remember_me" class="inline-flex items-center">
                 <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-                <span class="ms-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                <span class="ms-2 text-sm text-gray-600">{{ __('Lembrar de mim') }}</span>
             </label>
         </div>
 
