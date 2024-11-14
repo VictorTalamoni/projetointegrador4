@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Dashboard')
+@section('title', 'Perfil')
 @section('pagina')
     <a href="{{ url('/dashboard') }}">Página Inicial</a>
 @stop
