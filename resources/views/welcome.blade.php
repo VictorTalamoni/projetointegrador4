@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Cadastro de Pessoas')
+@section('title', 'Bem-vindo')
 @section('pagina', 'Página Inicial')
 @section('nav1')
 @if (Route::has('login'))
